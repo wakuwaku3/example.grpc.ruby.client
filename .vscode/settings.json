@@ -1,0 +1,35 @@
+{
+  "ruby.useBundler": true,
+  "ruby.intellisense": "rubyLocate",
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true
+    }
+  },
+  "ruby.format": "rubocop",
+  "ruby.rubocop.useBundler": true,
+  "[ruby]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  },
+  "solargraph.definitions": true,
+  "solargraph.diagnostics": true,
+  "solargraph.useBundler": true,
+  "solargraph.bundlerPath": "/usr/local/bin/bundle",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/vendor": true,
+    "**/tmp": true
+  },
+  "files.exclude": {
+    "**/vendor": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "editor.formatOnSave": true
+}

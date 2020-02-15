@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "kaiwood.endwise",
+    "misogi.ruby-rubocop",
+    "rebornix.ruby",
+    "castwide.solargraph"
+  ]
+}
